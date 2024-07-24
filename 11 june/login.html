@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>Form with table</title>
+    </head>
+    <body>
+        <form>
+        <table border="0" style="background-color:rgb(255, 112, 30);" cellpadding="6">
+         <tr>
+            <th colspan="2">Sign Up</th>
+         </tr>
+         <tr>
+            <td><label>Username:</label></td>
+            <td><input type="text" placeholder="Username" required required pattern="^[A-Za-z0-9]+$" size="40"></td>
+         </tr>
+            <td><label>Password:</label></td>
+            <td><input type="password" placeholder="Enter Password" disabled></td>
+         </tr>
+         <tr>
+            <td colspan="2" style="text-align: center;">
+            <input type="submit" value="Login">
+            <input type="reset" value="Cancel">
+        </td>
+         </tr>
+        </table>
+    </form>
+    </body>
+</html>

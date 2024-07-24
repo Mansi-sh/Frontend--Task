@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    background-color: aliceblue;
+}
+.container{
+    border: 2px solid black;
+    height: 70%;
+    width: 70%;
+    margin: 100px auto;
+    background: url(./img.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.glass{
+    background-color: #82ff5d57;
+    height: 80%;
+    width: 80%;
+    position: relative;
+    top: 50px;
+    left: 100px;
+    border-radius: 30px;
+    backdrop-filter: blur(2px);
+}

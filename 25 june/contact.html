@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+ES:wght@100..400&display=swap" rel="stylesheet">
+    <style>
+        body{
+            border: 2px solid black;
+            background-color: lightpink;
+        }
+        header{
+            border: 2px solid black;
+            text-align: center;
+        }
+        div{
+            display: inline-block;
+            padding: 10px;
+        }
+        .headline{
+            margin: 30px 550px;
+            text-decoration: underline;
+            text-shadow: -3px 6px 5px rgb(223, 90, 13);
+             color:rgb(255, 50, 50);
+             font-size: 15px;
+        }
+        button{
+            padding: 10px 15px;
+            border-radius: 15px;
+            width: 90px;
+        }
+        nav{
+            border: 2px solid green;
+            height: 700px;
+            width: 200px;
+            display: inline-block;
+
+        }
+        main{
+            /border: 3px solid red;/
+            display: inline-block;
+            height: 700px;
+            width: 100%;
+        }
+        ul{
+            display: inline-block;
+            padding: 30px 50px;
+        }
+        li{
+            list-style: none;
+            font-size: 30px;
+            margin-bottom: 40px;
+
+        }
+        a{
+            text-decoration: none;
+        }
+        .hero{
+            font-size: 50px;
+            text-decoration: underline;
+        }
+        .main-container{
+            /border: 2px solid black;/
+            display: inline-block;
+            position: absolute;
+            height: 680px;
+            width: 1230px;
+            font-size: 15px;
+            font-family: "Playwrite ES", cursive;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+    <div> <img src="https://png.pngtree.com/thumb_back/fh260/back_our/20190620/ourmid/pngtree-blood-donation-love-dedication-public-welfare-poster-background-template-image_145977.jpg" height="100" width="120" ></div>
+        <div class="logo"></div>
+        <div class="headline"><h2><b><i>Blood is gift of life</i></b></h2></div>
+        <div class="btn-container">
+        <button>sign up</button>
+        <button>login</button>
+    </div>
+    </header>
+    <main>
+        <nav>
+            <ul>
+                <li><a href="./index1.html">Home</a></li>
+                <li><a href="./blog.html">blog</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./contact.html"class="hero">Contact</a></li>
+            </ul>
+    
+        </nav>
+        <div class="main-container">
+            <center>
+                <table>
+                    
+                    <h1>Contact us</h1>
+                    <tr>
+                        <td>first name</td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>moblie number</td>
+                        <td><input type="number" placeholder="345678598"></td> 
+                    </tr>
+                    <tr>
+                        <td>Gender</td>
+                        <td><input type="radio" name="Gender">male
+                         <input type="radio" name="Gender">female
+                         <input type="radio" name="Gender">other</td>
+        
+                    </tr>
+                       <td>DOB</td>
+                       <td><input type="date"></td>
+                    </tr>
+                    <tr>
+                        <td>address</td>
+                        <td><textarea rows="5" cols="20"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>city</td>
+                        <td><input type="text" placeholder="A-Nagar">(Max 50 character Allowed)</td>
+                    </tr>
+                    <tr>
+                        <td>message</td>
+                        <td><textarea rows="5" cols="20"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>submit</td>
+                        <td><input type="submit"></td>
+                    </tr>
+                    </table>
+            </center>
+        </div>
+
+
+    </main>
+</body>
+</html>

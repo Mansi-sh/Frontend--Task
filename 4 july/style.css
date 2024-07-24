@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    background-color: aliceblue;
+}
+.box1{
+    
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: 100px;
+    left: 200px;
+    background-color: coral;
+    border-radius: 20px;
+
+    box-shadow:inset -10px -10px 10px rgb(168, 68, 68),
+    inset 10px 10px 10px rgb(221, 88, 88),
+    5px 5px 10px rgb(110, 53, 53);
+}
+.box2{
+    
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: 100px;
+    left: 200px;
+    background-color: white;
+    border-radius: 20px;
+    
+    border-radius: 41px;
+    background: white;
+    box-shadow:  27px 27px 54px #c7c7c7,
+                 -27px -27px 54px #f9f9f9;
+
+}

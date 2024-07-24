@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+h1{
+   background-color: aqua;
+    height: 50px;
+    width: 500px;
+    border: 5px solid black;
+    padding: 5px;
+}
+li{
+    background-color: chocolate;
+    list-style-position: inside;
+    /*list-style-image:url(./image.png);*/
+    list-style-type: "✔";
+}

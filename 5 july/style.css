@@ -1,0 +1,206 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: white;
+    font-family: sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+main{
+    height: 740px;
+    width: 340px;
+    border: 1px solid black;
+    margin: auto;
+    background-image: url(bg.png);
+    background-size: cover;
+}
+.mobile{
+      height: 700px;
+      width: 300px;
+      border: 1px solid white;
+      position: relative;
+      top: 20px;
+      left: 20px;
+      border-radius: 30px 30px 40px 40px;
+      backdrop-filter: blur(3px);
+      background-color: #ffffff50;
+}
+section{
+    
+    padding: 20px;
+    position: relative;
+}
+#s1{
+    padding: 20px 20px 0px 20px;
+}
+#s1 > img{
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+}
+#s1 > h3{
+    font-size: 27px;
+    font-weight: 200;
+}
+#c1{
+    margin-top: 20px;
+}
+#c2{
+    font-size: 60px;
+    font-weight: 600;
+}
+#c3{
+    position: absolute;
+    right: 90px;
+    bottom: 10px;
+}
+.upper{
+    width: 250px;
+    height: 250px;
+    position: relative;
+   
+}
+.upper>div{
+    width: 115px;
+    height: 115px;
+    border: 1px solid white;
+    backdrop-filter: blur(2px);
+    background-color: #ffffff50;
+    border-radius: 10px;
+}
+.upper>.box3{
+    height: 250px;
+    border: 1px solid white;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.upper>.box2{
+    border: 1px solid white;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.lower{
+   width: 250px;
+   height: 120px;
+   border: 1px solid white;
+   border-radius: 10px;
+   margin-top: 10px;
+   backdrop-filter: blur(2px);
+    background-color: #ffffff50;
+    padding: 20px;
+    position: relative;
+}
+.lower > h3{
+    font-weight: 200;
+    font-size: 17px;
+}
+.lower > .img{
+    width: 70px;
+    height: 80px;
+    background-image: url(./iimg.png);/*bg remove */
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+.lower > button{
+    height: 30px;
+    width: 60px;
+    border: none;
+    border-radius: 50px;
+    color: blue;
+    font-weight: 400;
+    position: relative;
+    top: 15px;
+}
+#s3{
+    border-radius: 50px;
+    height: 84px;
+    backdrop-filter: blur(2px);
+    background-color: #ffffff50;
+    position: relative;
+    top: 8px;
+}
+#s3 > button >i{
+    color:blue;
+}
+#s3 > button{
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    position: relative;
+    top: 3px;
+}
+.icon-1{
+    position: relative;
+    left: 50px;
+    font-size: 25px;
+    top: 6px;
+}
+.icon-2{
+    position: relative;
+    left: 100px;
+    font-size: 25px;
+    top: 6px;
+}
+#d1{
+   position: absolute;
+   top: 10px;
+   left: 10px;
+}
+#d2{
+    padding:10px;
+    margin-top: 40px;
+    font-size: 30px;
+}
+#d3{
+    position: absolute;
+    top: 80px;
+    left: 10px;
+}
+#l1{
+    position: absolute;
+   top: 9px;
+   left: 10px;
+   font-size: 18px;
+}
+#l2{
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    font-size: 30px;
+}
+#l3{
+    position: absolute;
+    top: 80px;
+    left: 10px;
+}
+#t1{
+    position: absolute;
+    top: 9px;
+    left: 10px;
+    font-size: 20px;
+}
+#s2 >.upper > .box3 >img{
+    position: absolute;
+    top: 47px;
+}
+#t2{
+    position: absolute;
+    top: 160px;
+    left: 10px;
+    font-size:35px;
+}
+#t3{
+    position: absolute;
+    top: 200px;
+    left: 17px;
+}
