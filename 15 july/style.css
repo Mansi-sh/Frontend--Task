@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  background-color: burlywood;
+  display: grid;
+  grid-template-areas:
+    "nav nav nav nav nav"
+    "aside main main main main"
+    "footer footer footer footer footer";
+}
+.com {
+  border: 1px solid black;
+  min-height: 130px;
+}
+/* ----------------------------------------------- */
+#component-1 {
+  grid-area: nav;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav {
+  display: flex;
+  gap: 30px;
+}
+
+.reserve {
+  display: flex;
+  gap: 20px;
+}
+
+select,
+#component-1 button {
+  border: none;
+  background-color: transparent;
+  font-size: 1em;
+  font-weight: 800;
+}
+
+i{
+    font-size: 1.4em;   
+}
+
+#component-1 > .reserve > button{
+    background-color: #ff3300;
+    color: white;
+    padding: 5px 30px;
+    border-radius: 5px;
+}
+
+#component-1 > .reserve > button:active{
+    background-color: brown;
+}
+/* ----------------------------------------------- */
+#component-2 {
+  grid-area: aside;
+}
+#component-3 {
+  grid-area: main;
+}
+#component-4 {
+  grid-area: footer;
+}
