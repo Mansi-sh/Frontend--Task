@@ -1,0 +1,143 @@
+.card{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+.main {
+  border: 2px solid black;
+  width: 80vw;
+  min-height: 100px;
+  background-color: aliceblue;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.card {
+  border: 2px solid black;
+  width: 300px;
+  min-height: 100px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px lightblue;
+  margin: 50px;
+}
+
+#s1 {
+    border-radius: 20px 20px 0px 0px;
+  background-image: radial-gradient(
+    circle farthest-corner at 60% 10%,
+    rgba(255, 209, 67, 1) 0%,
+    rgb(255, 56, 1) 90%
+  );
+  min-height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+#s1 h1 {
+  color: white;
+  font-size: 35px;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+#s1 > .line {
+  border: 2px solid white;
+  width: 80%;
+}
+
+#s1 > p {
+  color: white;
+  text-align: center;
+  font-size: 0.8em;
+  padding: 10px 5px;
+}
+/* -------------------- */
+
+#s2 {
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+#s2 > div:nth-child(2) {
+  font-size: 80px;
+  font-weight: 800;
+}
+
+#s2 > div:nth-child(1),
+#s2 > div:nth-child(3) {
+  font-size: 25px;
+  font-weight: 800;
+  position: relative;
+}
+
+#s2 > div:nth-child(1) {
+  bottom: 15px;
+}
+
+#s2 > div:nth-child(3) {
+  top: 20px;
+}
+/* -------------------------------- */
+
+#s3 {
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  gap: 40px;
+}
+
+.circle {
+  background-image: radial-gradient(
+    circle farthest-corner at 60% 10%,
+    rgba(255, 209, 67, 1) 0%,
+    rgb(255, 56, 1) 90%
+  );
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.list-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-items > p {
+  width: 90%;
+}
+
+#s3 > button {
+  width: 120px;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: 800;
+  background-image: radial-gradient(
+    circle farthest-corner at 60% 10%,
+    rgba(255, 209, 67, 1) 0%,
+    rgb(255, 56, 1) 90%
+  );
+  border: none;
+  color: aliceblue;
+  border-radius: 10px;
+  margin: 20px;
+}
